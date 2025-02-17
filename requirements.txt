@@ -1,0 +1,8 @@
+# FastAPI框架核心包
+fastapi>=0.68.0
+
+# ASGI服务器，用于运行FastAPI应用
+uvicorn>=0.15.0
+
+# 数据验证库，FastAPI的依赖项
+pydantic>=1.8.0 
