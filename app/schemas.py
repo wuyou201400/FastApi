@@ -1,6 +1,8 @@
 from typing import Optional
+# 处理请求体、查询参数、路径参数等的数据验证和序列化
 from pydantic import BaseModel
 
+# 定义继承自 BaseModel 的类来创建数据模型
 class ItemBase(BaseModel):
     """商品基础模型
     
